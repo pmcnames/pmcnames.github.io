@@ -1,0 +1,33 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 1;
+    background-color: rgb(251, 231, 231);
+    background-image:none;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color: rgb(95, 30, 56);
+    text-decoration:underline;
+    text-transform:uppercase;
+}
+
+ul#mainNav {
+    list-style-type: none;
+    line-height: 2;
+    text-align: left;
+    a:link {
+        color: rgb(201, 152, 211)
+    }
+    a:visited {
+        color:rgb(95, 30, 56)
+    }
+    a:hover {
+        color: rgb(80, 36, 88)
+    }
+}
+
+#banner {
+    width: 40%;
+    height: 30%;
+}
