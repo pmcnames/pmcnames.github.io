@@ -1,17 +1,9 @@
-* {margin: 0; padding: 0;}
-
-#wrapper {
-    width: 80%;
-    margin: auto;
-
-    body{
+body {
     font-family: "Roboto", sans-serif;
     font-size: 1;
     background-color: rgb(251, 231, 231);
     background-image:none;
     background-repeat: no-repeat;
-    }
-
 }
 
 h2 {
@@ -41,4 +33,3 @@ a:hover {
     width: 40%;
     height: 30%;
 }
-
