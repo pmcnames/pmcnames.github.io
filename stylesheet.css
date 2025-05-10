@@ -1,17 +1,20 @@
-* {margin: 0; padding: 0;}
+* {
+    margin: 0; 
+    padding: 0;
+}
 
 #wrapper {
     width: 80%;
     margin: auto;
     position: relative;
+
     }
 
 body {
     font-family: "Roboto", sans-serif;
     font-size: 1;
     background-color: rgb(251, 231, 231);
-    background-image:none;
-    background-repeat: no-repeat;
+
 }
 
 h2 {
@@ -37,10 +40,13 @@ a:hover {
     color: rgb(80, 36, 88)
     
 }
+
 #banner {
     width: 40%;
     height: 30%;
     overflow: auto;
+    position:relative;
+    z-index: -1;
 }
 
 header {
@@ -63,11 +69,26 @@ li {
     padding-right: 2em;
 }
 
+#portrait {
+    width: 40%;
+    height: 30%;
+    overflow: auto;
+}
+
+#sigourney {
+    width: 50%;
+    height: 30%;
+    overflow: auto;
+}
+
 footer {
     width: 80%;
     margin: 0%;
     padding: 1em;
+
 }
+
+/* Columns */
 
   .columns {float:left;}
 .col-1 {width: 8.33%;}
@@ -83,3 +104,7 @@ footer {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
   
+/* Rows */
+.row::after {
+    clear:left
+}
