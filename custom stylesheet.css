@@ -1,3 +1,41 @@
 body {
-    font-family:"Special Gothic";
+    font-family: "Special Gothic";
+}
+
+/* Header Animation */
+
+h1 {
+    color: rgb(0, 0, 0) 
+    animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example {
+    0% {
+        color: rgb(0, 0, 0)
+    }
+
+    50% {
+        color: rgb(32, 174, 187)
+    }
+
+    100% {
+        color: rgb(0, 0, 0)
+    }
+}
+
+/* Portrait Transition */
+
+#portrait {
+    visibility: hidden;
+    transition: visibility 2s;
+    
+}
+
+#portrait:hover {
+    visibility: visible;
+
 }
