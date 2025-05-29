@@ -30,12 +30,13 @@ h1 {
 /* Portrait Transition */
 
 #portrait {
-    visibility: hidden;
-    transition: visibility 2s;
-    
+    visibility: visible;
+    transition-duration: 0s;
+    transition: visibility;
+
 }
 
 #portrait:hover {
-    visibility: visible;
+    visibility: hidden;
 
 }
