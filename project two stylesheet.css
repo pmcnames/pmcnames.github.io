@@ -1,0 +1,30 @@
+
+body {
+    font-family: "Red Hat Text";
+}
+
+h5 {
+    font-family: "Red Hat Mono";
+    letter-spacing: 0.1em;
+}
+
+#Title-One {
+    text-align: center;
+    margin-top: 2.5em;
+}
+
+#Title-Two {
+    text-align: center;
+    margin-top: -5.75em;
+}
+
+#Introduction {
+    margin-top: 4em;
+    margin-bottom: 2.5em;
+}
+
+#Introduction-Img {
+    position: relative;
+    z-index: -1;
+}
+
