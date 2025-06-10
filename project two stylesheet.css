@@ -7,6 +7,12 @@ body {
 h5 {
     font-family: "Red Hat Mono";
     letter-spacing: 0.1em;
+    transition-duration: 0s;
+    transition: letter-spacing;
+}
+
+h5:hover {
+    letter-spacing:normal;
 }
 
 img {
@@ -15,7 +21,7 @@ img {
 }
 
 .Heading {
-   text-align: center; 
+    text-align: center;
 }
 
 .Subheading {
@@ -31,16 +37,22 @@ img {
 
 #Title-HeadingTwo {
     margin-top: -5.75em;
+    margin-bottom: 4em;
 }
 
 /* Introduction */
 
+#Archive-Img {
+    margin: auto;
+}
+
 #Introduction-Subheading {
-    margin-top: 4em;
+    margin-top: 2.5em;
 
 }
 
 #Introduction-Img {
+
     position: absolute;
     z-index: -1;
 }
@@ -61,4 +73,110 @@ img {
 
 }
 
+/* Journal */
+
+#Journal-Img {
+    margin-top: 4em;
+    position: absolute;
+    z-index: -1;
+}
+
+#Journal-P1 {
+    margin-top: 14em;
+}
+
+#Journal-P2 {
+    margin-top: 12.35em;
+}
+
+/* Commonplace */
+
+#Commonplace-Img {
+    margin-top: 20em;
+    position: absolute;
+    z-index: -1;
+}
+
+#Commonplace-P1 {
+    margin-top: 30em;
+}
+
+#Commonplace-P2 {
+    margin-top: 29.4em;
+}
+
+/* Scrapbook */
+
+#Scrapbook-Img {
+    margin-top: 30em;
+    position: absolute;
+    z-index: -1;
+}
+
+#Scrapbook-P1 {
+    margin-top: 42em;
+}
+
+/* Sketchbook */
+
+#Sketchbook-Img {
+    margin-top: 25em;
+    position: absolute;
+    z-index: -1;
+}
+
+#Sketchbook-P1 {
+    margin-top: 39em;
+}
+
+#Sketchbook-P2 {
+    margin-top: 17em;
+}
+
+#Sketchbook-P3 {
+    margin-top: 9em;
+}
+
+#Sketchbook-P4 {
+    margin-top: 3em;
+}
+
+/* Collaborative */
+
+#Collaborative-Img1 {
+    margin-top: 10em;
+    position: absolute;
+    z-index: -1;
+}
+
+#Collaborative-P1 {
+    margin-top: 21em;
+}
+
+#Collaborative-Img2 {
+    margin-top: 18em;
+    position: absolute;
+    z-index: -1;
+}
+
+#Collaborative-P2 {
+    margin-top: 36em;
+}
+
+/* Conclusion */
+
+#Conclusion-Img {
+    margin-top: 40em;
+    position: absolute;
+    z-index: -1;
+}
+
+#Conclusion-P1 {
+    margin-top: 42em;
+}
+
 /* Footer */
+
+#Footer {
+    margin-top: 20em;
+}
